@@ -1,0 +1,21 @@
+# Trained model artifacts (too large for GitHub; >100MB hard limit)
+my_awesome_qa_model/
+**/my_awesome_qa_model/
+**/checkpoint-*/
+*.safetensors
+*.pt
+*.bin
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
